@@ -13,6 +13,8 @@ int main()
   
   for (ch = 'a'; ch <='f'; ch++) 
         putchar(ch); 
-  
-    return (0); 
+     
+  putchar('\n');
+    
+  return (0); 
 } 
