@@ -1,15 +1,18 @@
-#include <stdio.h> 
-  
-int main() 
-{ 
-  
-    // Get the character to be written 
-    int ch = '0'; 
-  
-    // Write the Character to stdout 
-    for (ch = '0'; ch <='9'; ch++) 
-        putchar(ch);
-        
-        putchar ('\n');
-    return (0); 
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+int a = 0;
+while (a < 10)
+{
+putchar(a + '0');
+a++;
+}
+putchar('\n');
+return (0);
 }
