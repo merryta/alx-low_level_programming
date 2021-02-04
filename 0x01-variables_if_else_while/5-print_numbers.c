@@ -7,9 +7,10 @@ int main () {
 
    /* while loop execution */
    while( a < 10 ) {
-      printf("value of a: %d\n", a);
+      printf("%d", a);
       a++;
+      
    }
- 
+   printf("\n");
    return 0;
 }
