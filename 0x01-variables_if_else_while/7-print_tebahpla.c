@@ -1,10 +1,18 @@
-# include <stdio.h>
+#include <stdio.h>
 
-int main ()
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-  char c;
-  for (c = 'z' ; c >= 'a' ; c--) 
-    putchar (c);
-    
-    putchar('\n');
+char x = 'z';
+while (x >= 'a')
+{
+putchar(x);
+x--;
+}
+putchar('\n');
+return (0);
 }
