@@ -5,10 +5,10 @@ int main()
 { 
   
     // Get the character to be written 
-    char ch = '0'; 
+    int ch = '0'; 
   
     // Write the Character to stdout 
-    for (ch = '1'; ch <= '10'; ch++) 
+    for (ch = '0'; ch <='9'; ch++) 
         putchar(ch); 
   
     return (0); 
