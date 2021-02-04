@@ -1,20 +1,23 @@
+#include <stdio.h>
 
-#include <stdio.h> 
-  
-int main() 
-{ 
-  
-    // Get the character to be written 
-int ch = '0'; 
-  
-    // Write the Character to stdout 
-    for (ch = '0'; ch <= '9'; ch++) {
-    
-        putchar(ch); 
-     
- if (ch <'9')
-        putchar(';');
-    }
-   return(0);
-
-} 
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+int a = 48;
+while (a < 58)
+{
+putchar(a);
+if (a != 57)
+{
+putchar(',');
+putchar(' ');
+}
+a++;
+}
+putchar('\n');
+return (0);
+}
