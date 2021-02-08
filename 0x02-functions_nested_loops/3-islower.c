@@ -1,12 +1,14 @@
 #include "holberton.h"
 
 int _islower(int c) {
+ int i = 0;
+ int j= 1;
 
 if (c = 'a' && c = 'z') {
-  return (1);
-}else {
-  return (0);
-{
+  _putchar(i);
+     }else {
+       _putchar(j);
+         {
 
 }
 int main(void)
