@@ -1,16 +1,26 @@
 #include "holberton.h"
-int _abs(int){
 
-int const mask = n >> (sizeof(int) * CHARBIT - 1); 
-    return ((n + mask) ^ mask); 
-}
+/**
+ * _abs - This is a absolute value
+ *
+ * @a: This is the entry
+ *
+ * Return: Always 0.
+ */
 
-int main(void)
+int _abs(int a)
 {
-    int r;
-    
-      r = _abs(n);
-      _putchar(r);
-      _putchar('/n');
-    return (0);
+if (a > 0)
+{
+return (a);
+}
+else if (a < 0)
+{
+a = a * -1;
+return (a);
+}
+else
+{
+return (a);
+}
 }
