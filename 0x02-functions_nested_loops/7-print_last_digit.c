@@ -1,8 +1,23 @@
 #include "holberton.h"
+/**
+ * print_last_digit - last digit
+ * @num: integer
+ * Return: always cero
+ */
+ 
+ int print_last_digit(int n)
+{
+int l;
 
-int print_last_digit(int){
-int i,n;
-i= n%10;
-  return (i);
-  _putchar('/n');
+l = n % 10;
+if (l < 0)
+{
+_putchar(-l + 48);
+return (-l);
+}
+else
+{
+_putchar(l + 48);
+return (l);
+}
 }
