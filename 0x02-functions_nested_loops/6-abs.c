@@ -23,4 +23,5 @@ else
 {
 return (a);
 }
+  _putchar('/n');
 }
