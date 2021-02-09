@@ -1,11 +1,17 @@
 #include "holberton.h"
+/**
+  * print_alphabet - alphabet the code for Alx School students.
+  * @void: no content
+  *
+  */
+void print_alphabet(void)
+{
+	int i;
 
-void print_alphabet(void){
-int i;
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar(i);
 
-for (i='a'; i<='z'; i++) {
-putchar(i);
-}
-
-putchar('/n');
+	}
+		_putchar('\n');
 }
