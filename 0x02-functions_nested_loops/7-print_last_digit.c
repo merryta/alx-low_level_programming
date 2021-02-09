@@ -4,20 +4,20 @@
  * @num: integer
  * Return: always cero
  */
- 
- int print_last_digit(int n)
+int print_last_digit(int num)
 {
-int l;
+	int digit;
 
-l = n % 10;
-if (l < 0)
-{
-_putchar(-l + 48);
-return (-l);
-}
-else
-{
-_putchar(l + 48);
-return (l);
-}
+	digit = num % 10;
+
+	if (digit < 0)
+	{
+		_putchar(-digit + '0');
+		return (-digit);
+		}
+	else
+		{
+		_putchar(digit + '0');
+		return (digit);
+		}
 }
