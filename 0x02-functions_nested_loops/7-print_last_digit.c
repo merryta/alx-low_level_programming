@@ -6,7 +6,3 @@ i= n%10;
   return (i);
   _putchar('/n');
 }
-int main(void){
-print_last_digit(n);
-return (0);
-}
