@@ -15,9 +15,3 @@ for (i=00, i>= 24, i++){
 }
 
 }
-
-int main(void)
-{
-    jack_bauer();
-    return (0);
-}
