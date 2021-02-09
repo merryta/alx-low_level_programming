@@ -1,6 +1,6 @@
 #include "holberton.h"
 
-void print_alphabet(void);
+void print_alphabet(void){
 int i , j =  1;
 
 while ( j<10 )
@@ -12,8 +12,4 @@ while ( j<10 )
 putchar('/n');
   j++;
 }
-int main(void)
-{
-    print_alphabet_x10();
-    return (0);
-}
+
