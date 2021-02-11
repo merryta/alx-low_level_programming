@@ -1,15 +1,17 @@
+
 #include "holberton.h"
 /**
- * draws a straight line
- * return int.
- */
+  * print_line - print  a line
+  * @n: numbers of straigh lines
+  * Return: Always 0.
+  */
 void print_line(int n)
 {
-  if (n >= 0)
-    {
-      _putchar('\n');
-}
-  else{
-    _putchar(95)
-}
+	int l;
+
+	for (l = 1; l <= n; l++)
+	{
+		_putchar(95);
+	}
+	_putchar('\n');
 }
