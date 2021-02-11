@@ -1,36 +1,32 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include "holberton.h"
 /**
- * main - main function
- * Return: Always 0.
- */
-int main(void)
+   * print_triangle - print a triangle
+   * @size: size of triangle
+   */
+void print_triangle(int size)
 {
-	int n;
+	int s, n;
 
-	for (n = 1; n <= 100; n++)
+	if (size <= 0)
 	{
-		if (n % 15 == 0)
-		{
-			printf("FizzBuzz");
-		}
-		else if (n % 5 == 0)
-		{
-			printf("Buzz");
-		}
-		else if (n % 3 == 0)
-		{
-			printf("Fizz");
-		}
-		else
-		{
-			printf("%d", n);
-		}
-		if (n != 100)
-		{
-			putchar (' ');
-		}
+		_putchar ('\n');
 	}
-	putchar ('\n');
-	return (0);
+	n = 0;
+	while (n < size)
+	{
+		s = (size - 1);
+		while (s > n)
+		{
+			_putchar (' ');
+			s--;
+		}
+		s = 0;
+		while (s <= n)
+		{
+		_putchar ('#');
+		s++;
+		}
+		_putchar ('\n');
+		n++;
+	}
 }
