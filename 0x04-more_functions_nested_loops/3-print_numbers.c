@@ -1,7 +1,8 @@
+
 #include "holberton.h"
 /**
- * print 0 to 9 numbers with new line
- * return 0.
+ * print_numbers - function that prints numbers from 1 to 9
+ * @void: no content
  */
 void print_numbers(void)
 {
@@ -9,7 +10,7 @@ void print_numbers(void)
 
 	for (n = 0; n <= 9; n++)
 	{
-		_putchar (n);
+		_putchar (n + '0');
 	}
 		_putchar ('\n');
 }
