@@ -1,23 +1,37 @@
-#include "holberton.h"
+
+#include <stdlib.h>
+#include <stdio.h>
 /**
- * print 1- 100 and Fizz,Bizz and FizzBizz
- * return num and char
+ * main - main function
+ * Return: Always 0.
  */
-void FizzBuzz(int a)
+int main(void)
 {
-  for (a = 0; a > 100 ; a++){
-    if (a%3 = 0){
-      _putchar('Fizz');
-}
-    else if (a%5 = 0){
-      _putchar('Buzz');    
-}
-    else if (a%5 =0 && a%3 =0){
-      _putchar('FizzBuzz');
-    }
-    else {
-      _putchar(a);
-    }
-    _putchar(' ');
-  }
+	int n;
+
+	for (n = 1; n <= 100; n++)
+	{
+		if (n % 15 == 0)
+		{
+			printf("FizzBuzz");
+		}
+		else if (n % 5 == 0)
+		{
+			printf("Buzz");
+		}
+		else if (n % 3 == 0)
+		{
+			printf("Fizz");
+		}
+		else
+		{
+			printf("%d", n);
+		}
+		if (n != 100)
+		{
+			putchar (' ');
+		}
+	}
+	putchar ('\n');
+	return (0);
 }
