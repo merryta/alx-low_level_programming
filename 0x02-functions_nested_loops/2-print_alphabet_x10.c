@@ -1,19 +1,17 @@
 #include "holberton.h"
-
-void print_alphabet(void);
-int i , j =  1;
-
-while ( j<10 )
+/**
+ * print_alphabet_x10 -check alphabet x 10
+ * @void: void
+ */
+void print_alphabet_x10(void)
 {
-  for ( i='a'; i <='z'; i++){
-     putchar(i);
-}
+	int i;
+	int j;
 
-putchar('/n');
-  j++;
-}
-int main(void)
-{
-    print_alphabet_x10();
-    return (0);
+	for (i = 0  ; i <= 9; i++)
+	{
+		for (j = 'a'; j <= 'z' ; j++)
+		_putchar (j);
+		_putchar ('\n');
+	}
 }

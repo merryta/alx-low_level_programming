@@ -1,20 +1,21 @@
 #include "holberton.h"
 
-int _islower(int c) {
- 
- if (c = 'a' && c = 'z') {
-  return (1);
-     }else {
-       return (0);
-         {
+/**
+ * _islower - Check if the entry is in lower.
+ * @c: This is the entry
+ *
+ * Return: Always 0.
+ */
 
-}
-int main(void)
+int _islower(int c)
 {
-    int r;
-
-    r = _islower('c');
-     _putchar(r + '0');
-   
-    return (0);
+if (c >= 'a' && c <= 'z')
+{
+return (1);
+}
+else
+{
+return (0);
+}
+_putchar('\n');
 }
