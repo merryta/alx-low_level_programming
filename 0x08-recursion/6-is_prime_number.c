@@ -1,4 +1,3 @@
-  
 #include "holberton.h"
 /**
  *is_prime_check-check if n is prime
