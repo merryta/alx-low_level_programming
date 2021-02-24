@@ -4,7 +4,7 @@
  * @s: string coming
  * Return: 0 when string is finished
  **/
-void _puts_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 int i = 0;
 
@@ -15,5 +15,5 @@ return;
 }
 _putchar (*s);
 s--;
-_puts_recursion(s);
+_print_rev_recursion(s);
 }
