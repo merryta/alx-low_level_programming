@@ -10,7 +10,6 @@ int i = 0;
 
 if (s[i] == '\0')
 {
-_putchar(10);
 return;
 }
 _putchar (*s);
