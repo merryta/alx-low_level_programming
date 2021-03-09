@@ -1,6 +1,4 @@
-#ifndef SUM_H
-#define SUM_H
-
-#define SUM(x, Y) ((x) + (y))
-
-#endif /* SUM_H */
+#ifndef ABS_H
+#define ABS_H
+#define ABS(x) (((x) < 0) ? -(x) : (x))
+#endif /* ABS_H */
