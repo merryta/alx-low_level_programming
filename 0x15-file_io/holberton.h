@@ -1,7 +1,7 @@
 #ifndef _HOLBERTON_H_
 #define _HOLBERTON_H_
 #define LEN_BUFFER 1024
-#inclue <sys/types.h>
+#include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <unistd.h>
