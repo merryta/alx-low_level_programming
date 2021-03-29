@@ -1,0 +1,1 @@
+file i/o is an abstract indicator ued to access a file or other input/output resource such as a pipe or network socket.
