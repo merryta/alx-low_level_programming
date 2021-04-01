@@ -7,7 +7,7 @@ file i/o is an abstract indicator ued to access a file or other input/output res
 ## Files
 
 | file		        | Description     | 
- ---------------        | ---------------:|
+ ---------------        | ----------------|
 | holberton.h		| header file with differenent prototypes|
 | 0-read_textfile.c	| reads text file and print it to POSIX  |
 | 1-create_file.c	| creates a file                         |
