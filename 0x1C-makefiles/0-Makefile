@@ -1,2 +1,2 @@
-output:
+all:
 	gcc holberton.c main.c -o holberton 
