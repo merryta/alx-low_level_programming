@@ -28,9 +28,9 @@ void print_array(int *array, size_t size)
  *
  * Return: index where value is located, -1
  */
-int binary_search(int *array, size_t size, int value);
+int binary_search(int *array, size_t size, int value)
 {
-	size l, m, r;
+	size_t l, m, r;
 
 	if (array != NULL && size > 0)
 	{
