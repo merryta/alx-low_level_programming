@@ -20,6 +20,7 @@ void print_array(int *array, size_t size)
 	}
 	printf("\n");
 }
+
 /**
  * binary_search - searches for a value in a sorted array of integers
  * @array: pointer to the first element
